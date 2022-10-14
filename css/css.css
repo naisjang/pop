@@ -1,0 +1,29 @@
+body{
+  background-color:#FF8800;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+a{
+  display: inline-block;
+  font-weight:bold;
+  font-family:font; 
+  font-variant:small-caps;
+  font-size: 5vw;
+  background: #ffffff;
+  padding: 10px 30px;
+  text-decoration: none;
+  color: #FF8800;
+  margin-top: 10px;
+  transition: 0.2s;
+  border-radius: 5px;
+}
+a:hover{
+  letter-spacing: 2vw;
+}
+@font-face{
+  font-family: font;
+  src: url('../font/GenJyuuGothic-Normal.ttf')
+}
